@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding; 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.container{
+   margin: 20px 0 0 20px;
+}
+
+/* Section */
+
+.info {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+
+}
+.left{
+  /* border-right: 1px solid red; */
+  margin-right: 5px;
+  width: 50%;
+}
+.line {
+  height: 150px;
+  width: 2px;
+  background-color: lightgrey;
+  vertical-align: middle;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.access{
+  text-align: center;
+  width: 50%;
+  /* margin-left: 4px; */
+}
+
+.access h3 {
+ margin-right: 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top:
+}
+
+.vehicle {
+  color: rgb(125, 220, 196);
+}
+
+
+/* Main */
+
+.routes {
+  padding: 30px 0;
+
+}
+
+.trails {
+ display: flex;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+}
+
+.boxes {
+  position: relative;
+  color: white;
+  margin: 0 20px;
+  padding-right: 20px;
+}
+
+.boxes .description {
+  position: absolute;
+  top: 70%;
+  left: 20px;
+}
+
+span {
+  padding: 0 5px;
+}
