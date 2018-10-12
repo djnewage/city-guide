@@ -52,6 +52,9 @@ body {
   color: rgb(125, 220, 196);
 }
 
+.fa-car {
+  color: red
+}
 
 /* Main */
 
@@ -67,6 +70,16 @@ body {
 img {
   height: 300px;
   width: 250px;
+  -webkit-box-shadow: -2px 10px 29px 6px rgba(196,196,196,1);
+-moz-box-shadow: -2px 10px 29px 6px rgba(196,196,196,1);
+box-shadow: -2px 10px 29px 6px rgba(196,196,196,1);
+  filter: brightness(70%);
+  transition: all 0.9s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: brightness(100%);
 }
 
 .boxes {
@@ -74,6 +87,7 @@ img {
   color: white;
   margin: 0 20px;
   padding-right: 20px;
+
 }
 
 .boxes .description {
