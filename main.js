@@ -122,16 +122,119 @@
 // let artist = ["Common", "Kanye", "Lupe", "J.cole", "Vic Mensa"];
 // console.log(artist);
 
-let student = {
-    id: 83,
-    name: "joe",
-    lastName: "smith",
-    Grade: function(grade) {
-        // console.log('His grade is' + grade);
-        return 'his grade is  ' + grade; 
-    },
-    classes: ["math", "english", "gym", "cooking"]
-}
+// let student = {
+//     id: 83,
+//     name: "joe",
+//     lastName: "smith",
+//     Grade: function(grade) {
+//         // console.log('His grade is' + grade);
+//         return 'his grade is  ' + grade; 
+//     },
+//     classes: ["math", "english", "gym", "cooking"]
+// }
 
-console.log(student)
-console.log("===============================")
+// console.log(student)
+// console.log("===============================")
+
+
+// objects and adding objects
+
+// let students = [{
+//     name: 'bob',
+//     age: 27,
+//     car: {
+//         name: "gle",
+//         year: 2017,
+//         price: 8000,
+//         style: 'sport',
+//     } 
+// },
+// {
+//     name: 'matt',
+//     age: 25,
+//     car: {
+//         name: "gle",
+//         year: 2017,
+//         price: 8000,
+//         style: 'sport',
+//     } 
+// },
+// {
+//     name: 'steve',
+//     age: 22,
+//     car: {
+//         name: "gle",
+//         year: 2017,
+//         price: 8000,
+//         style: 'sport',
+//     } 
+// }
+//]
+// console.log(student);
+// console.log("================");
+// student["transmission"] = "automatic";
+
+// console.log(student)
+// console.log("================")
+// student.gradutated = 2011;
+// console.log(student)
+// console.log("================")
+
+// console.log(students)
+
+let bosses = [{
+    name: "Bowser",
+    type: "Dragon",
+    pwrLvl: 2000,
+    attacks: {
+        FireBreath: 100 + ' dmg',
+    }
+},
+{
+    name: "Frieza",
+    type: "Alien",
+    pwrLvl: 72000,
+    attacks: {
+        DarkBall: 100 + ' dmg',
+    }
+},
+{
+    name: "Cell",
+    type: "Android",
+    pwrLvl: 20000,
+    attacks: {
+        DeathBeam: 100 + ' dmg',
+    }
+}
+];
+
+let heroes = [{    
+    name: "Goku",
+    type: "Saiyan",
+    pwrLvl: 1405194,
+    attacks: {
+        Kamehameha: 1000 + ' dmg',
+        SpiritBomb: 5000 + ' dmg',
+    }
+},
+{
+    name: "Vegeta",
+    type: "Saiyan",
+    pwrLvl: 1505194,
+    attacks: {
+        GalikGun: 1000 + ' dmg',
+        FinalFlash: 60000 + ' dmg',
+    }
+},
+{
+    name: "Gohan",
+    type: "Saiyan",
+    pwrLvl: 1005194,
+    attacks: {
+        Kamehameha: 1000 + ' dmg',
+        Masenko: 5000 + ' dmg',
+    }
+}
+];
+
+alert(heroes[1].attacks);
